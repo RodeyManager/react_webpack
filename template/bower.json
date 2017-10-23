@@ -1,0 +1,21 @@
+{
+  "name": "react_browserify",
+  "description": "",
+  "main": "''",
+  "authors": [
+    "Rodey Luo <rodeyluo@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/RodeyManager/react_browserify",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}
