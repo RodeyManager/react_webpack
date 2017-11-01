@@ -1,4 +1,3 @@
-
 import API from './api';
 
 const ENV = 'local';
@@ -19,7 +18,7 @@ const App = {
         return protocolReg.test(APINAME) ? APINAME : App.getHosts((host || App.ServerHost) + APINAME + (App.apiSuffix || ''));
     },
     getHosts: function(page){
-        if(protocolReg.test(page) || /^\.+\//.test(page))  return page;
+        if(protocolReg.test(page) || /^\.+\//.test(page)) return page;
         return location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '') + (page ? '/' + page : '');
     }
 
@@ -27,14 +26,13 @@ const App = {
 
 function getServerHost(){
     return ENV === 'local' ? '../../src/mockData/' :
-            ENV === 'dev' ? getDevHost() :
-                ENV === 'stg' ? 'test-app/' :
-                    ENV === 'prd' ? 'app/' : '';
+        ENV === 'dev' ? getDevHost() :
+            ENV === 'stg' ? 'app/' :
+                ENV === 'prd' ? 'app/' : '';
 }
 
 function getDevHost(){
-    return 'http://192.168.1.100:9002/app'; //(Rodey Luo)
+    return 'http://192.168.1.100:9002/app/'; //(Rodey Luo)
 }
 
-// module.exports = App;
 export default App;

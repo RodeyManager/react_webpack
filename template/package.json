@@ -8,6 +8,7 @@
     "build:stg": "gupack build -e stg",
     "build:prd": "gupack build -e prd",
     "server": "gupack build -s",
+    "start": "gupack build -es",
     "test": "gupack test"
   },
   "author": "",
