@@ -1,5 +1,4 @@
 /**
- * Created by Rodey on 2017/11/1
  * build css styles task
  */
 'use strict';

@@ -1,7 +1,5 @@
-/**
- * Created by Rodey on 2017/11/1
- */
 'use strict';
+
 const htmlLoader = require('../loaders/htmlLoader');
 
 module.exports = {

@@ -1,5 +1,5 @@
 /**
- * Created by Rodey on 2017/6/14.
+ * 编译环境相关
  */
 'use strict';
 

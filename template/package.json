@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "''",
   "scripts": {
-    "build:local": "gupack build -e local",
-    "build:dev": "gupack build -e dev",
-    "build:stg": "gupack build -e stg",
-    "build:prd": "gupack build -e prd",
+    "local": "gupack build -e local",
+    "dev": "gupack build -e dev",
+    "stg": "gupack build -e stg",
+    "prd": "gupack build -e prd",
     "server": "gupack build -s",
     "start": "gupack build -es",
     "test": "gupack test"

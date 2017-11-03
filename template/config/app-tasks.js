@@ -1,5 +1,4 @@
 /**
- * Created by Rodey on 2017/11/1
  * Build Tasks 应用编译相关任务
  */
 'use strict';

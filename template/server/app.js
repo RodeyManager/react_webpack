@@ -1,7 +1,3 @@
-/**
- * Created by Rodey on 2017/11/1
- */
-
 'use strict';
 
 const http = require('http'),

@@ -1,5 +1,4 @@
 /**
- * Created by Rodey on 2017/11/1
  * Deploy 应用部署相关, 可根据env设置对应的节点,支持多节点部署
  */
 'use strict';

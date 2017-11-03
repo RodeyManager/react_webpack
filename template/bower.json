@@ -1,12 +1,12 @@
 {
-  "name": "react_browserify",
+  "name": "react_webpack",
   "description": "",
   "main": "''",
   "authors": [
     "Rodey Luo <rodeyluo@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/RodeyManager/react_browserify",
+  "homepage": "https://github.com/RodeyManager/react_webpack",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,7 +15,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "react": "^15.6.1"
-  }
+  "dependencies": {}
 }
